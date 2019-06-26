@@ -18,3 +18,6 @@ As it conforms a valid sudoku, the code then initialise the values in sudoku wit
 The checking all one possibles is repeated untill all these are solved.
 If any boxes are remained after this , then it purely goes searching the solution with RANDOM numbers from the possibilities.
 So , this algorithm might takes a little more time to solve with more than one solution.
+
+
+To get this thing work and to use it, just execute and run the "Evening.java" file, and then the swing window (frame ) is displayed with two buttons below it, and there you go!
