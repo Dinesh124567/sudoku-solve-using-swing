@@ -20,4 +20,4 @@ If any boxes are remained after this , then it purely goes searching the solutio
 So , this algorithm might takes a little more time to solve with more than one solution.
 
 
-To get this thing work and to use it, just execute and run the "Evening.java" file, and then the swing window (frame ) is displayed with two buttons below it, and there you go!
+To get this thing work and to use it, just execute and run the "Eventing.java" file, and then the swing window (frame ) is displayed with two buttons below it, and there you go!
