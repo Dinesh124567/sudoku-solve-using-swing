@@ -10,14 +10,14 @@ b) sudoku with no solution.
    i.e checks if there is NO POSSIBILITIES in the grid with the box is empty.
 
 c) sudoku with more than one solution.
-   i.e this is purely based on all RANDOM POSSIBILITIES, and checks if it is terminated to NO SOLUTION.
+   i.e this is purely based on BACKTRACK ALGORITHM, and checks if it is terminated to NO SOLUTION.
 
 
 Before solving this it first check if the sudoku is valid or not.
 As it conforms a valid sudoku, the code then initialise the values in sudoku with only one possible in a box( if there any).
 The checking all one possibles is repeated untill all these are solved.
-If any boxes are remained after this , then it purely goes searching the solution with RANDOM numbers from the possibilities.
-So , this algorithm might takes a little more time to solve with more than one solution.
+If any boxes are remained after this , then it goes searching the solution with a set of numbers from all the possibilities, if the solution is not found then the numbers that are set are changed again to find the solution, this process goes on until the solution of sudoku is found, if there develops array indexoutofbounds exception then this means there is no solution for the sudoku and the status shows -"no solution".
+So , this algorithm is by far the best and ultimate algorithm to solve sudoku.
 
 
-To get this thing work and to use it, just execute and run the "Eventing.java" file, and then the swing window (frame ) is displayed with two buttons below it, and there you go!
+To get this thing work and to use it, just execute and run the "Eventing.java" file, and then the swing window (frame ) is displayed with two buttons below it and contains a text field for the status of sudoku, and there you go!
