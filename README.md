@@ -10,7 +10,7 @@ b) sudoku with no solution.
    i.e checks if there is NO POSSIBILITIES in the grid with the box is empty.
 
 c) sudoku with more than one solution.
-   i.e this is purely based on BACKTRACK ALGORITHM, and checks if it is terminated to NO SOLUTION.
+   i.e this is based on BACKTRACK ALGORITHM, and checks if it is terminated to NO SOLUTION situation.
 
 
 Before solving this it first check if the sudoku is valid or not.
