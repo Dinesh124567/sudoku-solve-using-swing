@@ -21,4 +21,5 @@ So , this algorithm is by far the best and ultimate algorithm to solve sudoku.
 
 
 #Usage
+
 To get this thing work and to use it, just execute and run the "Eventing.java" file, and then the swing window (frame ) is displayed with two buttons below it and contains a text field for the status of sudoku, and there you go!
